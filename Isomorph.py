@@ -1,0 +1,9 @@
+X,Y=list(map(str,input().split()))
+A=set(X)
+B=set(Y)
+M=len(A)
+N=len(B)
+if(M!=N):
+      print("no")
+else:
+      print("yes")
